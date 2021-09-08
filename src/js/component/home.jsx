@@ -1,8 +1,5 @@
 import React from "react";
 
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
-
 //create your first component
 const Home = () => {
 	return (
@@ -10,12 +7,16 @@ const Home = () => {
 			<div className="circle red" color="red"></div>
 			<div className="circle yellow" color="yellow"></div>
 			<div className="circle green" color="green"></div>
+			<div className="botones">
+				<button>red</button>
+				<button>yellow</button>
+				<button>green</button>
+			</div>
 		</div>
 	);
 };
 
 export default Home;
-cons;
 
 const circles = document.querySelectorAll(".circles");
 let activelight = 0;
