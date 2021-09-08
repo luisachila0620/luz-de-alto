@@ -20,9 +20,21 @@ body{
     width:70px
 }
 .circle{
-    background-color: white;
+    background-color: grey;
     border-radius: 60px;
     position: relative;
     height: 40px;
     width: 40px;
+}
+.circle.red{
+    background-color: red;
+    box-shadow: 50px;
+}
+.circle.yellow{
+    background-color: rgb(218, 218, 7);
+    box-shadow: 50px;
+}
+.circle.green{
+    background-color: green;
+    box-shadow: 50px;
 }
