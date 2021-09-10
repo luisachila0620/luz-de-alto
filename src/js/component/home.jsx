@@ -7,16 +7,14 @@ const Home = () => {
 			<div className="circle red" color="red"></div>
 			<div className="circle yellow" color="yellow"></div>
 			<div className="circle green" color="green"></div>
-			<div className="botones">
-				<button>red</button>
-				<button>yellow</button>
-				<button>green</button>
+			<div className="letters">
+				<button className="boton">red</button>
+				<button className="boton">yellow</button>
+				<button className="boton">green</button>
 			</div>
 		</div>
 	);
 };
-
-export default Home;
 
 const circles = document.querySelectorAll(".circles");
 let activelight = 0;
@@ -33,3 +31,5 @@ function changelight() {
 	const currentlight = circles[activelight];
 	currentlight.classList.add(currentlight.getAttribute("color"));
 }
+
+export default Home;

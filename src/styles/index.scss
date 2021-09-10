@@ -38,7 +38,15 @@ body{
     background-color: green;
     
 }
-.botones{
+.letters{
+    background-color: orange;
+    border-radius: 30px;
     display: flex;
+    position: relative;
+    bottom: 110%;
     
+}
+.boton{
+    background-color: rgb(235, 155, 6);
+    border-radius: 30px;
 }
