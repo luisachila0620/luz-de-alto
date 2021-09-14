@@ -11,25 +11,12 @@ const Home = () => {
 				<button className="boton">red</button>
 				<button className="boton">yellow</button>
 				<button className="boton">green</button>
+				<div className="reset">
+					<button>RESET</button>
+				</div>
 			</div>
 		</div>
 	);
 };
-
-const circles = document.querySelectorAll(".circles");
-let activelight = 0;
-
-setInterval(changelight, 1000);
-
-function changelight() {
-	circles[activelight].className = "circle";
-	activelight++;
-
-	if (activelight > 2) {
-		activelight = 0;
-	}
-	const currentlight = circles[activelight];
-	currentlight.classList.add(currentlight.getAttribute("color"));
-}
 
 export default Home;

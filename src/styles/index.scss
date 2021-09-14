@@ -39,14 +39,26 @@ body{
     
 }
 .letters{
-    background-color: orange;
+    background-color: grey;
     border-radius: 30px;
     display: flex;
     position: relative;
     bottom: 110%;
     
+    
 }
 .boton{
-    background-color: rgb(235, 155, 6);
+    background-color:rgb(99, 99, 240);
     border-radius: 30px;
+}
+.reset{
+    font-size: 50px;
+    background-color: grey;
+    border-radius: 30px;
+    display: flex;
+    position: relative;
+    top: 800%;
+    margin: auto;
+    text-align: center;
+    margin-right: 130px;
 }
