@@ -40,17 +40,16 @@ body{
 }
 .letters{
     background-color: grey;
-    border-radius: 30px;
+    border-radius: 20px;
     display: flex;
     position: relative;
     bottom: 110%;
+    text-align: center;
     
     
 }
-.boton{
-    background-color:rgb(99, 99, 240);
-    border-radius: 30px;
-}
+
+
 .reset{
     font-size: 50px;
     background-color: grey;
@@ -61,4 +60,5 @@ body{
     margin: auto;
     text-align: center;
     margin-right: 130px;
+    
 }
