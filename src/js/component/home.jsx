@@ -1,5 +1,6 @@
 import React from "react";
 
+
 //create your first component
 const Home = () => {
 	return (
@@ -21,24 +22,5 @@ const Home = () => {
 
 export default Home;
 
-document.getelementbyclassName("circle red").onclick = illuminatedred;
-document.getelementbyclassName("circle yellow").onclick = illuminatedyellow;
-document.getelementbyclassName("circle green").onclick = illuminatedgreen;
 
-function illuminatedred() {
-	clearlights();
-	document.getelementbyclassName("stoplight").style.backgroundcolor = "red";
-}
-function illuminatedyellow() {
-	clearlights();
-	document.getelementbyclassName("slowlight").style.backgroundcolor =
-		"yellow";
-}
-function illuminatedgreen() {
-	clearlights();
-	document.getelementbyclassName("golight").style.backgroundcolor = "green";
-}
-function clearlights() {
-	clearlights();
-	document.getelementbyclearlights("clearlights");
-}
+
