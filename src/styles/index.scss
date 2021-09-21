@@ -1,7 +1,8 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
 body{
-    background-color: lightblue;
+    background-image: url("https://images.hdqwalls.com/download/new-york-city-street-reflection-motion-blur-dark-4k-gp-1600x900.jpg");
+    // background-color: lightblue;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,27 +41,30 @@ body{
     
 }
 .letters{
-    background-color: grey;
+    
+    font-size: 20px;
+    position: absolute;
     border-radius: 20px;
-    display: flex;
+    display: block;
     position: relative;
-    bottom: 110%;
+    bottom: 90%;
     text-align: center;
+    
     
     
 }
 
 
 .reset{
+    
     font-size: 50px;
-    background-color: grey;
+    
     border-radius: 30px;
-    display: flex;
+    display: block;
     position: relative;
-    top: 800%;
+    top: 390%;
     margin: auto;
     text-align: center;
-    margin-right: 130px;
     
 }
 .glow.red{
