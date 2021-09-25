@@ -16,16 +16,17 @@ body{
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    padding: 15px;
+    padding: 0x;
     height: 500px;
     width:155px
 }
 .circle{
     background-color: grey;
-    border-radius: 60px;
+    border-radius: 80px;
     position: relative;
-    height: 100px;
-    width: 95px;
+    height: 110px;
+    width: 110px;
+    top: 50px;
 }
 .circle.red{
     background-color: rgb(197, 40, 40);
@@ -58,7 +59,6 @@ body{
 .reset{
     
     font-size: 50px;
-    
     border-radius: 30px;
     display: block;
     position: relative;
