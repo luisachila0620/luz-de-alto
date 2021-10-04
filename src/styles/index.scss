@@ -76,3 +76,19 @@ body{
 .glow.green{
     box-shadow:20px 20px 20px 15px green;
 }
+.stoplight{
+    color: black(146, 135, 135);
+    background-color: lightblue;
+    border-radius: 15px;
+}
+.slowlight{
+    color: black;
+    background-color: lightblue;
+    border-radius: 15px;
+
+}
+.golight{
+    color: black;
+    background-color: lightblue;
+    border-radius: 15px;
+}
