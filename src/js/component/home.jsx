@@ -28,7 +28,7 @@ const Home = () => {
 					green
 				</button>
 				<div className="reset" onClick={() => setColor("")}>
-					<button>RESET</button>
+					<button className="lastbutt">RESET</button>
 				</div>
 			</div>
 		</div>
